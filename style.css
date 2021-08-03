@@ -1,0 +1,38 @@
+.search-box{
+    margin: 0px auto;
+    /* background-color: yellow; */
+    width: 80%;
+    text-align: center;
+}
+#search{
+    width: 55%;
+    padding: 15px;
+    border-radius: 20px;
+    border: 3px solid gray;
+    outline: none;
+    text-align: center;
+}
+#search:focus{
+    width: 65%;
+    transition: 1.5s;
+    border: 5px solid gray;
+
+}
+.S-btn{
+    background-color: white;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#correct-word{
+    border: 2px solid blue;
+    width: 48%;
+    display:inline-block;
+}
+#palindrome-word{
+    border: 2px solid red;
+    width: 50%;
+    display:inline-block;
+
+}

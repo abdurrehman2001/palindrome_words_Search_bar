@@ -78,3 +78,9 @@ h1{
     font-variant: small-caps;
     font-size: 42px;
 }
+.main-box{
+    background-color: transparent;
+    border:4px dotted white;
+    text-align: center;
+
+}

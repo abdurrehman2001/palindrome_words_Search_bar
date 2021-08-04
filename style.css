@@ -123,3 +123,60 @@ button{
 .B-btn:hover{
   box-shadow: 0 0 10px 0 #232324 inset, 0 0 10px 4px #232324;
 }
+
+@media only screen and (max-width: 1035px) {
+  .one-box {
+      width: 45%;
+  }
+  .second-box{
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 666px) {
+  .one-box {
+    font-size: 23px;
+
+  }
+  .second-box{
+    font-size: 23px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #search{
+    width: 100%;
+    font-size: 19px;
+    margin-left: -15px;
+  }
+  #search:focus{
+    width: 100%;
+    font-size: 19px;
+  }
+  .S-btn{
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    margin-left: -10px;
+  
+  }
+  .S-btn:hover{
+    border: none;
+    font-size: 21px; 
+    outline: none;
+    background-color: none;
+    transition: none;
+}
+  h1{
+  font-size: 19px;
+}
+  .B-btn{
+  font-size: 18px;
+  border: none;
+  outline: none;
+  margin-left: -35px;
+}
+  .B-btn:hover{
+  border: none;
+  box-shadow: none;
+} 
+}

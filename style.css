@@ -1,86 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Indie+Flower&family=Kanit:ital,wght@1,500&family=Prompt:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 body {
-    background: linear-gradient(-45deg, black, silver, black, silver);
-    background-size: 1000% 1000%;
-    animation: gradient 15s ease infinite;
+  background: linear-gradient(-45deg, black, silver, black, silver);
+  background-size: 1000% 1000%;
+  animation: gradient 15s ease infinite;
   }
-  
   @keyframes gradient {
     0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
     }
     50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
     }
     100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
     }
   }
 .search-box{
-    margin: 0px auto;
-    width: 80%;
-    text-align: center;
+  margin: 0px auto;
+  width: 80%;
+  text-align: center;
 }
 #search{
-    width: 55%;
-    padding: 15px;
-    border-radius: 20px;
-    border: 3px solid gray;
-    outline: none;
-    text-align: center;
-    font-size: 23px;
-    font-family: "Courgette";
-    font-style: italic;
+  width: 55%;
+  padding: 15px;
+  border-radius: 20px;
+  border: 3px solid gray;
+  outline: none;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Courgette";
+  font-style: italic;
 }
 #search:focus{
-    width: 65%;
-    transition: 1.5s;
-    border: 5px solid rgb(134, 133, 133);
-
+  width: 65%;
+  transition: 1.5s;
+  border: 5px solid rgb(134, 133, 133);
 }
 .S-btn{
-    background-color: rgb(138, 133, 133);
-    padding: 20px;
-    border: 3px solid rgb(43, 42, 42);
-    border-radius: 15px;
-    cursor: pointer;
-    font-family:cursive;
+  background-color: rgb(138, 133, 133);
+  padding: 20px;
+  border: 3px solid rgb(43, 42, 42);
+  border-radius: 15px;
+  cursor: pointer;
+  font-family:cursive;
+}
+.S-btn:hover{
+  border: 3px solid white ;
+  color: white;
+  transition: 1.0s;
+  font-family: "Kaushan Script";
+  text-transform: capitalize;
+  font-size: 30px;
 }
 .one-box{
-    border: 4px dotted white;
-    width: 48%;
-    display:inline-block;
-    margin-top: 25px;
-    text-align: center;
-    text-transform: capitalize;
-    font-family: "Indie Flower";
-    font-size: 28px;
-    font-weight: bold;
-    font-style: italic;
+  border: 4px dotted white;
+  width: 48%;
+  display:inline-block;
+  margin-top: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Indie Flower";
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
 }
 .second-box{
-    border: 4px dotted white;
-    width: 50%;
-    display:inline-block;
-    margin-top: 25px;
-    text-align: center;
-    text-transform: capitalize;
-    font-family: "Indie Flower";
-    font-size: 28px;
-    font-weight: bold;
-    font-style: italic;
-
+  border: 4px dotted white;
+  width: 50%;
+  display:inline-block;
+  margin-top: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Indie Flower";
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
 }
 h1{
-    font-family: "Prompt";
-    font-variant: small-caps;
-    font-size: 42px;
+  font-family: "Prompt";
+  font-variant: small-caps;
+  font-size: 42px;
 }
 .main-box{
-    background-color: transparent;
-    border:4px dotted white;
-    text-align: center;
+  margin: 0px auto;
+  margin-top: 100px;
+  width: 80%;
+  background-color: transparent;
+  border:4px dotted white;
+  text-align: center;
 
+}
+button{
+  box-sizing: border-box;
+  background-color: transparent;
+  border-radius: 0.6em;
+  font-size: 20px;
+  padding: 25px;
+  width: 25%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+.B-btn{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-color: #232324;
+  color: #fff;
+  box-shadow: 0 0 40px 40px transparent inset, 0 0 0 0 transparent;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  font-family: monospace;
+}
+.B-btn:hover{
+  box-shadow: 0 0 10px 0 #232324 inset, 0 0 10px 4px #232324;
 }

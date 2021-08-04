@@ -24,15 +24,20 @@ body {
   text-align: center;
 }
 #search{
+  outline: none;
+  border: none;
   width: 55%;
   padding: 15px;
   border-radius: 20px;
-  border: 3px solid gray;
-  outline: none;
   text-align: center;
-  font-size: 23px;
+  font-size: 25px;
   font-family: "Courgette";
   font-style: italic;
+  background-color: transparent;
+  color: white;
+}
+#search::placeholder{
+  color: white;
 }
 #search:focus{
   width: 65%;
